@@ -1,1 +1,68 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.weather-info {
+  width: 500px;
+  border: 2px solid black;
+  padding: 10px 20px;
+}
+
+.weather-info__date-time {
+  color: orange;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.weather-info__geolocation {
+  color: black;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.weather-info__info {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.weather-info__info-img {
+  margin: auto 5px auto 0;
+}
+
+.weather-info__info-txt {
+  margin: auto 5px;
+  color: black;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.weather-info__descr {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.weather-info__more {
+  margin-top: 15px;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.weather-info hr {
+  margin: 10px auto 10px 0;
+  width: 90%;
+  height: 2px;
+  color: black;
+  opacity: 1;
+}
+
+.about-weather {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
+  -ms-grid-rows: (50%)[2];
+      grid-template-rows: repeat(2, 50%);
+}
+/*# sourceMappingURL=style.css.map */

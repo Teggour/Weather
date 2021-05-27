@@ -1,0 +1,62 @@
+.weather-info {
+    width: 500px;
+    border: 2px solid black;
+    padding: 10px 20px;
+
+    &__date-time {
+        color: orange;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    &__geolocation {
+        color: black;
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+    &__info {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        display: flex;
+
+        &-img {
+            margin: auto 5px auto 0;
+        }
+
+        &-txt {
+            margin: auto 5px;
+            color: black;
+            font-size: 50px;
+            line-height: 50px;
+            font-weight: bold;
+        }
+    }
+
+    &__descr { 
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    &__more {
+        margin-top: 15px;
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    & hr {
+        margin: 10px auto 10px 0;
+        width: 90%;
+        height: 2px;
+        color: black;
+        opacity: 1;
+    }
+}
+
+.about-weather {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+}
