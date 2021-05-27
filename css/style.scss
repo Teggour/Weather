@@ -1,4 +1,5 @@
 .weather-info {
+    margin: 0 auto;
     width: 500px;
     border: 2px solid black;
     padding: 10px 20px;
@@ -21,7 +22,7 @@
         display: flex;
 
         &-img {
-            margin: auto 5px auto 0;
+            margin: auto 20px auto 0;
         }
 
         &-txt {
